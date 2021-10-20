@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  background-color: #fff;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 1rem;
+}
+
+#global {
+  height: 100%;
+}
+
+#dummy {
+  height: 100%;
+}
+
+#dummy > .row {
+  height: 100%;
+}
+
+#dummy > .row > .col {
+  height: 100%;
+}
+
+#linechart {
+  height: 100%;
+}
+
+#dummy > .row > .col {
+  display: flex;
+  flex-direction: column;
+}
+.country-selection {
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+select {
+  width: 100%;
+}
+.flag {
+  vertical-align: middle;
+}
+.indicator-select {
+  background-color: #fff;
+  color: #044aa3;
+}
